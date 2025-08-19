@@ -20,12 +20,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module mux_4x1(a, b,c, d, s, out);
+module mux_4x1(
      input a, b, c, d;
      input [1:0] s;
-     output out;
-     reg out;
-     
+     output reg out;
+};
      always @(*)
        begin
            case(s)
