@@ -1,14 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Kefayet Ullah, Ph.D. 
 // 
 // Create Date: 08/19/2025 04:40:34 PM
-// Design Name: 
+// Design Name: 4x1 Multiplexer
 // Module Name: mux_4x1
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
+// Project Name: Multiplexer
+// Target Devices: XCZU28DR
+// Tool Versions: Vivado 2020.2
 // Description: 
 // 
 // Dependencies: 
