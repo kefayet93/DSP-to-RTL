@@ -23,7 +23,7 @@
 module mux_4x1(
      input a, b, c, d;
      input [1:0] s;
-     output reg out;
+     output reg out; // since "out" signal is assigned inside the procedural block "always@(*)"
 );
      always @(*)
        begin
