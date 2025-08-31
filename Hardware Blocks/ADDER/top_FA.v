@@ -12,10 +12,10 @@ module top_FA(a, b, cin, sum, cout);
    always @(*)
      begin
 	   carry = cin;
-	    for(idx = 0; idx < 4; idx = idx+1)
-		{carry, sum[idx]} = a[idx] + b[idx] + carry;
-		end
-	   cout = carry;
+	     for(idx = 0; idx < 4; idx = idx+1)
+		  {carry, sum[idx]} = a[idx] + b[idx] + carry;
+		 end
+	      cout = carry;
 	 end
 endmodule
 
