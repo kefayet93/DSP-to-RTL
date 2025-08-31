@@ -21,7 +21,7 @@
 
 module top_FA(a, b, cin, sum, cout);
      input [3:0]a, b;
-	 input c;
+	 input cin;
 	 output [3:0] sum;
 	 output cout;
 	 
@@ -40,3 +40,4 @@ module top_FA(a, b, cin, sum, cout);
 	   end
 
 	   
+
