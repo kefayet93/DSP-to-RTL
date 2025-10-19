@@ -12,3 +12,9 @@ This repository contains a collection of wireless digital signal processing (DSP
 - C teaches how hardware really moves data
 - C exposes memory addressing, pointers, and data locality
 - That's exactly what RTL design engineers deal with - registers, buses, caches, FIFOs 
+
+| Feature | Description | Status |
+| :------ | :---------: | -----: |
+| Feature A | This is a description for feature A. | Implemented |
+| Feature B | Another description. | In Progress |
+| Feature C | Yet another description. | Planned |
