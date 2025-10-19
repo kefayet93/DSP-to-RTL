@@ -15,6 +15,8 @@ This repository contains a collection of wireless digital signal processing (DSP
 
 | C Concept | RTL Equivalent |
 | :------ | :---------: |
-| Feature A | This is a description for feature A |
-| Feature B | Another description|
-| Feature C | Yet another description |
+| Array | Memory or Register file |
+| Pointer | Address Bus|
+| Variable | Register/Wire |
+| Function Call | Hardware Module |
+| Loop | FSM or pipelined datapath |
