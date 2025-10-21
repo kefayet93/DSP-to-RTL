@@ -21,4 +21,4 @@ This repository contains a collection of wireless digital signal processing (DSP
 | Function Call | Hardware Module |
 | Loop | FSM or pipelined datapath |
 
-C is used for Bit-True Fixed-Point modeling. Before implementing in RTL, the high-level algorithm (in Matlab/Python) has to be translated into a C fixed-point model to verify the effects of quantization, saturation, and overgflow.
+C is used for Bit-True Fixed-Point modeling. Before implementing in RTL, the high-level algorithm (in Matlab/Python) has to be translated into a C fixed-point model to verify the effects of quantization, saturation, and overgflow. This ensures RTL matches the expected precision and word length. 
