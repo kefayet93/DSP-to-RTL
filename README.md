@@ -8,6 +8,9 @@ This repository contains a collection of wireless digital signal processing (DSP
 - Timing, power, and resource usage reports and analysis using synthesis tools like Vivado
 - Clear microarchitecture diagrams and short descriptions
 
+**Hardware-Algorithm Correlation**
+
+
 **C for RTL Design** 
 - C teaches how hardware really moves data
 - C exposes memory addressing, pointers, and data locality
