@@ -25,3 +25,9 @@ C is used for Bit-True Fixed-Point modeling. Before implementing in RTL, the hig
 
 C connects hardware to software. In System-on-Chip (SoC) design, RTL interfaces such as AXI, SPI, DMA are controlled by firmware written in C. 
 Learning C enables writing register-level drivers for the IPs, debugging interactions between RTL and embedded processors, and driving collaboration with firmware and verification teams.
+
+| Aspect | C Programming| RTL Design | Combined Benefits |
+| :------ | :---------: | :------ | :---------: |
+| Abstraction | Algorithmic | Clock-Level | Full-system visibility |
+| Memory | Addressing, Caching | Register banks, Buses | Better architecture partitioning |
+
