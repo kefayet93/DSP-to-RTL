@@ -30,4 +30,7 @@ Learning C enables writing register-level drivers for the IPs, debugging interac
 | :------ | :---------: | :------ | :---------: |
 | Abstraction | Algorithmic | Clock-Level | Full-system visibility |
 | Memory | Addressing, Caching | Register banks, Buses | Better architecture partitioning |
+| Optimization | Data Reuse, locality | Pipelining, Resource Sharing | End-to-end performance testing |
+| Verification | Reference Model | DUT Implementation | Bit-true comparison|
+| Toolchain | Compiler | Synthesis | Software-hardware co-optimization |
 
