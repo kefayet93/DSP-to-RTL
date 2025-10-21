@@ -1,5 +1,5 @@
 # DSP-to-RTL
-This repository contains a collection of wireless digital signal processing (DSP) projects, taking all the way from Matlab/Python models to working RTL on an FPGA. It includes DSP building blocks, such as an FIR filter with fixed-point conversion, bit-true verification, and FPGA timing/power results, showing the full path from algorithm to hardware.
+Modern System-on-Chip (SoC) and wireless system design rely on bridging the gap between digital signal processing (DSP) algorithms and real silicon implementation. This repository contains a collection of DSP projects, taking all the way from Matlab/Python models to synthesizable RTL on real silicon. It includes DSP building blocks, such as an FIR filter with fixed-point conversion, bit-true verification, and FPGA timing/power results, showing the full path from algorithm to hardware.
 
 **Algorithm-to-Fixed-point-RTL** 
 - Projects focused on wireless communication algorithms
