@@ -22,3 +22,5 @@ This repository contains a collection of wireless digital signal processing (DSP
 | Loop | FSM or pipelined datapath |
 
 C is used for Bit-True Fixed-Point modeling. Before implementing in RTL, the high-level algorithm (in Matlab/Python) has to be translated into a C fixed-point model to verify the effects of quantization, saturation, and overgflow. This ensures RTL matches the expected precision and word length. 
+C connects hardware to software. In System-on-Chip (SoC) design, RTL interfaces such as AXI, SPI, DMA are controlled by firmware written in C. 
+Learning C enables writing register-level drivers for the IPs, debugging interactions between RTL and embedded processors, and driving collaboration with firmware and verification teams.
