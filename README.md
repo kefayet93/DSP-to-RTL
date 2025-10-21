@@ -8,9 +8,6 @@ Modern System-on-Chip (SoC) and wireless system design rely on bridging the gap 
 - Timing, power, and resource usage reports and analysis using synthesis tools like Vivado
 - Clear microarchitecture diagrams and short descriptions
 
-**Hardware-Algorithm Correlation**
-
-
 **C for RTL Design** 
 - C teaches how hardware really moves data
 - C exposes memory addressing, pointers, and data locality
@@ -37,5 +34,9 @@ Learning C enables writing register-level drivers for the IPs, debugging interac
 | Verification | Reference Model | DUT Implementation | Bit-true comparison|
 | Toolchain | Compiler | Synthesis | Software-hardware co-optimization |
 
-
+**Hardware-Algorithm Correlation**
+1. Bit-true verification:
+   - Implement bit-true models in C to validate RTL output accuracy
+   - Verify RTL arithmetic matches algorithmic behavior within 1 LSB (least significant bit) precision across fixed-point formats
+   - Ensures functional equivalence between floating-point simulation and real hardware implementation.
 
