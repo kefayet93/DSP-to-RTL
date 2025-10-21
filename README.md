@@ -36,13 +36,3 @@ Learning C enables writing register-level drivers for the IPs, debugging interac
 
 
 
-# 3-Month C Programming & Data Structures (with RTL Hardware Insights)
-Prepared by Kefayet Ullah  
-GitHub: https://github.com/kefayet93/DSP-to-RTL  
-Focus: Bit-True DSP-to-RTL Design for Wireless SoC Systems  
-
-
----
-
-
-
