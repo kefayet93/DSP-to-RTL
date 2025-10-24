@@ -34,6 +34,11 @@ Learning C enables writing register-level drivers for the IPs, debugging interac
 | Verification | Reference Model | DUT Implementation | Bit-true comparison|
 | Toolchain | Compiler | Synthesis | Software-hardware co-optimization |
 
+Learning C is essential for RTL Design Engineers because:
+1. It trains one to think in terms of data movement and memory, exactly what happens in hardware
+2. It enables bit-true modeling, hardware-software co-simulation, and HLS-based design
+3. It bridges algorithms, Hardware (RTL), Verification, and Firmware (Software)
+
 **Hardware-Algorithm Correlation**
 1. Bit-true verification:
    - Implement bit-true models in C to validate RTL output accuracy
