@@ -21,7 +21,7 @@ Modern System-on-Chip (SoC) and wireless system design rely on bridging the gap 
 | Function Call | Hardware Module |
 | Loop | FSM or pipelined datapath |
 
-C is used for Bit-True Fixed-Point modeling. Before implementing in RTL, the high-level algorithm (in Matlab/Python) has to be translated into a C fixed-point model to verify the effects of quantization, saturation, and overgflow. This ensures RTL matches the expected precision and word length. 
+C is used for Bit-True Fixed-Point modeling. Before implementing in RTL, the high-level algorithm (in Matlab/Python) has to be translated into a C fixed-point model to verify the effects of quantization, saturation, and overflow. This ensures RTL matches the expected precision and word length. 
 
 C connects hardware to software. In System-on-Chip (SoC) design, RTL interfaces such as AXI, SPI, DMA are controlled by firmware written in C. 
 Learning C enables writing register-level drivers for the IPs, debugging interactions between RTL and embedded processors, and driving collaboration with firmware and verification teams.
@@ -45,3 +45,9 @@ Learning C is essential for RTL Design Engineers because:
    - Verify RTL arithmetic matches algorithmic behavior within 1 LSB (least significant bit) precision across fixed-point formats
    - Ensures functional equivalence between floating-point simulation and real hardware implementation.
 
+**Deliverables**
+1. Design a pipelined fused multiply-add (FMA) block for a GPU ALU
+2. Optimize a floating-point divider to meet 1 GHz timing at minimal area
+3. Debug a rounding error causing a mismatch between RTL and the C reference model
+4. Create a parameterized FP datapath supporting FP16/FP32/FP64 precision
+5. Integrate FP unit into the core execution cluster; analyze power/timing trade-offs
