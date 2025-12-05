@@ -1,0 +1,1 @@
+A multichannel FIR filter is essentially an array of FIR filters operating simultaneously on different data streams. Each stream has its own data, but often shares the same filter coefficients (e.g., matched filters, anti-aliasing filters, or reconstruction filters).
