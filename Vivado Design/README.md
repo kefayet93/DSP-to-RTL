@@ -8,5 +8,5 @@ A multichannel FIR filter is essentially an array of FIR filters operating simul
 - Timing, power, and resource usage reports and analysis using synthesis tools like Vivado
 - Clear microarchitecture diagrams and short descriptions
 
+<img width="1369" height="346" alt="image" src="https://github.com/user-attachments/assets/4d60cb56-db62-49f7-8966-553ee48056a2" />
 
-![Uploading image.png…]()
