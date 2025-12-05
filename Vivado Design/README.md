@@ -1,3 +1,6 @@
+# Algorithms to Architectures
+With the evolution of Very Large Scale Integration (VLSI) technology, the cost of implementing complex hardware systems has significantly decreased. This advancement enables designers to build high-performance, computation-heavy applications in compact silicon footprints. As modern fabrication processes allow more logic gates per chip, the design focus has shifted from conserving space to maximizing system throughput and processing speed. In this context, pipelining and parallelism have become essential techniques in hardware architecture to meet the growing demand for high-speed and real-time digital signal processing (DSP). 
+
 # Multichannel Filtering
 A multichannel FIR filter is a series of FIR filters operating simultaneously on different data streams. Each stream has its own data, but often shares the same filter coefficients (e.g., matched filters, anti-aliasing filters, or reconstruction filters).
 
