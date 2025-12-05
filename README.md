@@ -51,3 +51,6 @@ Learning C is essential for RTL Design Engineers because:
 3. Debug a rounding error causing a mismatch between RTL and the C reference model
 4. Create a parameterized FP datapath supporting FP16/FP32/FP64 precision
 5. Integrate FP unit into the core execution cluster; analyze power/timing trade-offs
+
+<img width="1369" height="346" alt="image" src="https://github.com/user-attachments/assets/6e30f753-cf63-4527-bac4-38a4480aacee" />
+
