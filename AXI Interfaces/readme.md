@@ -10,5 +10,5 @@ In AXI, for the ADDRESS, we have two separate channels, one isthe  READ ADDRESS 
 
 <img width="50%" height="945" alt="image" src="https://github.com/user-attachments/assets/71791bbc-593b-47ac-8d10-597427d83032" />
 
-In the READ operation, the master wants to read some data from the slave. It cannot simply ask to read the data from the slave. The master will send an ADDRESS and Control instruction through a READ ADDRESS channel from which address location to read the data. The Control signal determines whether it's a WRITE operation or a READ operation. In this READ operation case, WRTIE = 0.  
+In the READ operation, the master wants to read some data from the slave. It cannot simply ask to read the data from the slave. The master will send an ADDRESS and Control instruction through a READ ADDRESS channel from which address location to read the data. The Control signal determines whether it's a WRITE operation or a READ operation. In this READ operation case, WRTIE = 0.  Now, after receiving the Address and control signal from the master, the slave, in response, will send the data to the master. The slave will do so with a separate dedicated channel, the READ Data channel. 
 
