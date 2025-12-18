@@ -8,3 +8,5 @@ The data transfer between the master and slave is established with a WRITE DATA 
 
 
 
+In AXI, for the ADDRESS, we have two separate channel, one is READ ADDRESS channel and the other is WRITE ADRESS channel. Whereas the AHB/APB protocol does not have separate WRITE/READ ADDRESS channels. This is one of the reasons of high-speed data transfer capability of AXI protocol. 
+
