@@ -7,6 +7,5 @@ AXI is referred to as Adbanced eXtensible Interface and is an interface protocol
 The data transfer between the master and slave is established with a WRITE DATA channel to the SLAVE or a READ DATA channel to the MASTER. In WRITE transaction, the data is transferred from the master to the slave. An additional WRITE RESPONSE channel allows the slave to send a response to the master htat the WRITE transaction to the slave has been completed.
 
 In AXI, for the ADDRESS, we have two separate channel, one is READ ADDRESS channel and the other is WRITE ADRESS channel. Whereas the AHB/APB protocol does not have separate WRITE/READ ADDRESS channels. This is one of the reasons of high-speed data transfer capability of AXI protocol. 
-
-<img src="[https://your-image-url.png](https://github.com/user-attachments/assets/fc589653-0808-4a02-81d6-e6472d870ad5)" width="50%"/>
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/71791bbc-593b-47ac-8d10-597427d83032" />
 
