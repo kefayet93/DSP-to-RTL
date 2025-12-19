@@ -8,6 +8,10 @@ Modern System-on-Chip (SoC) and wireless system design rely on bridging the gap 
 - Timing, power, and resource usage reports and analysis using synthesis tools like Vivado
 - Clear microarchitecture diagrams and short descriptions
 
+**FPGA-based DSP System Design**
+There is always a trade-off between design accuracy and complexity in FPGA-based DSP systems without any optimization techniques. Although using a larger bit-width ensures design accuracy, it also simultaneously increases design complexity. Eventually, this translates to occupying more silicon area due to the requirement of processing a larger number of bits per clock. 
+
+
 **C for RTL Design** 
 - C teaches how hardware really moves data
 - C exposes memory addressing, pointers, and data locality
