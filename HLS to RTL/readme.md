@@ -1,1 +1,3 @@
-
+**Register Allocation**
+For example, we have 14 variables. Now the question we have to answer is, do we need 14 registers to store these 14 variables, or less number of registers can store these 14 variables?
+The answer is that we don't need 14 registers to store these 14 variables. That is the maximum possible hardware utilization, which is not the best possible hardware design. So, the problem that we need to solve now, given these variables and the schedule available, is to identify the minimum number of registers needed to execute this behavior, or store these variables in the registers. This is referred to as register allocation. 
