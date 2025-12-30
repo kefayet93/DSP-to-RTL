@@ -1,2 +1,2 @@
-**FFT Accelerator on ZYNQ ARM Processor**
-This repository contains the C-code used to code the FFT on Vitis HLS software from Vivado. 
+**FFT Software Accelerator**
+This repository contains the C-code used to code the FFT on the Vitis HLS software from Vivado. 
