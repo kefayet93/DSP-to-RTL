@@ -7,4 +7,5 @@ This repository contains the architecture overview of ZYNQ SoC and the design pr
   - Use Vitis HLS to create C-based applications on an ARM processor
   - Debugging of the software design
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/dc1bb3c4-4077-4a55-9b65-5142483453ca" />
+<img width="1687" height="849" alt="image" src="https://github.com/user-attachments/assets/c235990e-721f-4ff9-a3be-faa04ffca1b2" />
+
