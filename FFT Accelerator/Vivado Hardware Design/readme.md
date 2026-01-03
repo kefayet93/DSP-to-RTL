@@ -2,4 +2,5 @@
 
 This repository contains the hardware design for the FFT accelerator in Vivado IDE version 2020.2. 
 
-<img width="1423" height="346" alt="image" src="https://github.com/user-attachments/assets/accb426b-b6f7-44e6-a9a5-421c7e30b0c4" />
+<img width="1817" height="446" alt="image" src="https://github.com/user-attachments/assets/72a4f351-4ee1-4f58-9da2-488d7c50953f" />
+
