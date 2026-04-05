@@ -21,12 +21,12 @@
 
 
 module mux_4x1(
-     input wire a;
-     input wire b; 
-     input wire c;
-     input wire d; 
-     input wire [1:0]s;
-     output reg out;// since "out" signal is assigned inside the procedural block "always@(*)"
+     input wire a,
+     input wire b,
+     input wire c,
+     input wire d, 
+     input wire [1:0]s,
+     output reg out // since "out" signal is assigned inside the procedural block "always@(*)."
 );
 
 // Combinational Logic Design
