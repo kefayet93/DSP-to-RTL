@@ -21,7 +21,7 @@
 
 
 module RAM8x8(
-     input clk, rst, WR_ENB,
+     input clk, rst, WR_ENB, RD_ENB,
      input [2:0] WR_ADDR, RD_ADDR, 
      input [7:0] data_in,
      output reg [7:0] data_out
