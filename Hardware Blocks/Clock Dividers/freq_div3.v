@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 05/10/2026 05:05:35 PM
+// Create Date: 05/10/2026 10:45:49 PM
 // Design Name: 
-// Module Name: counter_mod3
+// Module Name: freq_div3
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,12 +19,15 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module counter_mod3(
+
+module freq_div3(
       
       input clk, rst, en,
-      output reg [1:0] count
+      output f_3
     );
     
+      reg [1:0] count;
+      
       always @(posedge clk)
         begin
           if(rst)
@@ -38,5 +41,7 @@ module counter_mod3(
             // count should only change when en=1.  
             
         end
+        
+        assign f_3 = count[1];
+        
 endmodule
-
