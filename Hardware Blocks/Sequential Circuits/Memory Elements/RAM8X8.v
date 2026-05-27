@@ -18,33 +18,35 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
 module RAM8x8(
-     input clk, rst, WR_ENB,
+     input clk, rst, WR_ENB, RD_ENB,
      input [2:0] WR_ADDR, RD_ADDR, 
      input [7:0] data_in,
      output reg [7:0] data_out
 );
      // Creating one internal memory
      reg [7:0] mem[7:0];
-     integer i;
+     integer i;   
      
      // Write operation
-     always @(posedge clk or rst)
+     always @(posedge clk)
        begin
            if(rst)
              begin
-                for(i=0; i<7; i=i+1)
+                for(i=0; i<8; i=i+1)
                   mem[i] <=0; // non-blocking assignement since sequential element
              end
            else if(WR_ENB)
               mem[WR_ADDR] <= data_in;
+       end
               
      // Read Logic
-           else if(WR_ENB == 0)
+     always @(posedge clk)
+       begin
+         if(rst)
+            data_out <= 0;
+           else if(RD_ENB)
               data_out <= mem[RD_ADDR];
-           end
+       end
              
-  
 endmodule
